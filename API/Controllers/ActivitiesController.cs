@@ -9,8 +9,6 @@ namespace API.Controllers;
 
 public class ActivitiesController(AppDbContext context): BaseApiController
 {
-    
-
     [HttpGet]
     public async Task<ActionResult<List<Activity>>> GetActivities()
     {
